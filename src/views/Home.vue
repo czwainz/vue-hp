@@ -2,10 +2,9 @@
   <div class="home container">
     <div class="row">
       <div class="col-12">
-
-        <h1>WITCHCRAFT AND WIZARDRY</h1>
+        <h1 class="title">WITCHCRAFT AND WIZARDRY</h1>
       </div>
-      <div class="row">
+      <div class="col-12">
         <houses></houses>
       </div>
       <student v-for="student in students" :key="student._id" :s="student"></student>
@@ -40,5 +39,11 @@
 </script>
 
 <style>
+  .container {
+    background-color: var(--light)
+  }
 
+  .title {
+    font-family: 'Marck Script', cursive;
+  }
 </style>

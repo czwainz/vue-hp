@@ -1,8 +1,8 @@
 <template>
   <div class="houses row">
-    <div class="col-3" v-for="(value, key) in houses">
-      <h1>{{key}}</h1>
-      <h4>{{value}}</h4>
+    <div class="col-3 card" v-for="(value, key) in houses">
+      <h2>{{key}}</h2>
+      <h5>{{value}}</h5>
     </div>
   </div>
 </template>
