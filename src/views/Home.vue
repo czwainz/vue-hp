@@ -40,7 +40,8 @@
 
 <style>
   .container {
-    background-color: var(--light)
+    background-color: var(--light);
+    color: black;
   }
 
   .title {
