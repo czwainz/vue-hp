@@ -46,5 +46,6 @@
 
   .title {
     font-family: 'Marck Script', cursive;
+    text-shadow: 0px 0px 1px grey;
   }
 </style>
