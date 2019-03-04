@@ -2,7 +2,7 @@
   <div class="houses row">
     <div class="col-3 card" v-for="(value, key) in houses">
       <h2>{{key}}</h2>
-      <h5>{{value}}</h5>
+      <h6>{{value}}</h6>
     </div>
   </div>
 </template>
